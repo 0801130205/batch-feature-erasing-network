@@ -43,9 +43,9 @@ The baseline source code is borrowed from https://github.com/L1aoXingyu/reid_bas
 
 Dataset | CUHK03-Label | CUHK03-Detect | DukeMTMC re-ID  | Market1501 | In-Shop Clothes|
 --------|--------------|---------------|-----------------|------------|----------------|
-Rank-1  | 75.0         | 72.1          | 88.7            | 94.4       |89.5            |
-mAP     | 70.9         | 67.9          | 75.8            | 85.0       |72.3            |
-model   |[aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/cuhk_label_750.pth.tar) | [aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/cuhk_detect_720.pth.tar) | [aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/duke_887.pth.tar) | [aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/market_944.pth.tar)|[aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/clothes_895.pth.tar)
+Rank-1  | 75.0         | 72.1          | 88.7            | 95.3       |89.5            |
+mAP     | 70.9         | 67.9          | 75.8            | 86.2       |72.3            |
+model   |[aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/cuhk_label_750.pth.tar) | [aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/cuhk_detect_720.pth.tar) | [aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/duke_887.pth.tar) | [aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/market_953.pth.tar)|[aliyun](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/clothes_895.pth.tar)
 
 You can download the pre-trained models from the above table and evaluate on person re-ID datasets.
 For example, to evaluate CUHK03-Label dataset, you can download the model to './pytorch-ckpt/cuhk_label_bfe' directory and run the following commands.
