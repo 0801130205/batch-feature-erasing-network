@@ -69,4 +69,4 @@ python main_reid.py train --save_dir='./pytorch-ckpt/clothes_bfe' --model_name=b
 ```bash
 python main_reid.py train --save_dir='./pytorch-ckpt/market-bfe' --max_epoch=400 --eval_step=30 --dataset=market1501 --test_batch=128 --train_batch=128 --optim=adam --adjust_lr
 ```
-This traning command is tested on 4 GTX1080 gpus. You shoud get a result around 95%.
+This traning command is tested on 4 GTX1080 gpus. Here is [training log](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/market_953.txt). You shoud get a result around 95%.
